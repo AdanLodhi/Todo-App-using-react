@@ -1,0 +1,13 @@
+/* eslint-disable react/prop-types */
+//import Deleteicon from "../assets/deleteicon.png";
+
+import "./todo.css";
+
+export const TodoItem = ({ title }) => {
+  return (
+    <div className="todo-item" id="todo-1">
+      <p className="todo-task-title">{title} </p>
+      {/* <img className="todo-icon" src={DeleteIcon} />  */}
+    </div>
+  );
+};
